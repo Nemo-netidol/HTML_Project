@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Charm&family=Epilogue:wght@600&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Jpver.css" rel="stylesheet" type="text/css">
+    <title>My Name Generator</title>
+</head>
+<body>
+    <div id="content">
+        <br>
+            <label class="text">Japanese Name Generator</label>
+            <br>
+            <div id="checkbox">
+                <input type="radio" class="goback" name="choice" id="kunChoice"><label for="choice">"くん "を付ける</label>
+                <br>
+                <input type="radio" name="choice" id="chanChoice"><label for="choice">"ちゃん "を付ける</label>
+                <br>
+                <input type="radio" name="choice" class="noneChoice" checked="checked" id="noneChoice"><label for="choice">無</label>
+                <br>
+                <br>
+                <input type="text" id="textbox">
+                <br>
+                <button id="myButton">Generate</button>
+                <br>
+                <p id="textHere"></p>
+            </div>
+    </div>
+    <script src="JPver.js"></script>
+</body>
+</html>
